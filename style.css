@@ -203,7 +203,9 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+    background-color: #151414;
+    height: 600px;
+    width: 100%;
 .first-footer
 {
     position: relative;
@@ -220,6 +222,20 @@ footer{
 }
 .f-item{
     display: flex;
-    
     align-items: center;
+}
+.second-footer
+{
+
+}
+.subscribe
+{
+    font-size:20px;
+    font-weight: 600;
+    border-style: none;
+    background-color: white;
+    padding: 15px 30px;
+    color: rgb(243, 104, 53);
+    
+    border-radius: 10%; 
 }
